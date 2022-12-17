@@ -1,0 +1,181 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    padding: 48px 0 24px 0;
+    font-size: 48px;
+}
+
+h3 {
+    padding: 16px 0 16px 0;
+    font-size: 32px;
+}
+
+p {
+    max-width: 80ch;
+    margin: auto;
+    padding: 0px 24px 16px 24px; 
+}
+
+p.text-large {
+    font-size: 24px
+}
+
+button {
+    max-width: 400px;
+    border: 0;
+    border-radius:24px;
+    padding: 24px 72px;
+    background: #BC1823;
+    border: 2px solid #BC1823;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #F5F6F7;
+    border: 2px solid #00701C;
+    color: #00701C;
+}
+
+input {
+    width: 90%;
+    height: 32px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Header */
+
+.logo {
+    width: 150px;
+    margin:auto;
+}
+
+nav {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav ul {
+    padding: 24px;
+}
+
+nav li {
+    list-style-type: none;
+    padding:20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #BC1823;
+}
+
+nav hr {
+    color: #999AA0;
+    opacity: 0.35;
+    width: 50px;
+    margin: auto;
+}
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("../images/hero-image-pexels-kevin-bidwell-1788852.jpeg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Products */
+
+.product {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.product p {
+    text-align: left;
+}
+
+/* Our Story */
+
+.our-story {
+    padding-bottom: 70px;
+    background: #28262C;
+    color: #F5F6F7;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+}
+
+.contact-info, .map {
+    margin-bottom: 50px;
+}
+
+.tel-big {
+    font-size: 32px;
+    color: #BC1823;
+    text-decoration: none;
+}
+
+/* Newsletter */
+
+.newsletter {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: #000000;
+    color: #F5F6F7;
+}
